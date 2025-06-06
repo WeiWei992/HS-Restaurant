@@ -1,0 +1,44 @@
+START
+Display Restaurant Logo
+Display “Welcome to H&S Restaurant, what would you like to order?”
+Display Restaurant Menu
+Display initializes an empty order list
+Prompt user to input (between num 1 to 10) 
+Read user’s choice 
+IF choice = valid
+Break the loop
+IF choice is invalid
+Display “incorrect input”
+Continue loop
+Prompt user to input quantity
+IF quantity is 0
+Display “invalid_enter again”
+
+Display choices add more or check out
+Prompt user to choose
+IF choice = check out
+Break the loop
+IF choice = add more
+Continue loop
+Add selected items and quantities to order list
+
+Display the order details charges_of_meals_SST_total amount
+Prompt user for payment
+Read payment amount
+IF payment amount is less than total
+Display “cash not enough” and ask for make payment again
+Calculate and display the change
+
+Prompt user choose 1 for Next Customer and 2 for Sales Report
+IF choice = 1
+Continue loop
+IF choice = 2
+Break the loop
+IF choice < 1 or > 2 
+Display “invalid_re-enter again”
+
+Display running date
+Display header of daily meal sales report
+Display the total_amount_sales_total_amout_meals_of the day 
+
+END
